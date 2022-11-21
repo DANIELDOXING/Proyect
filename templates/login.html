@@ -1,0 +1,35 @@
+<div id="titulo">
+
+{% extends "layout.html" %}
+
+{% block content %}
+<section class="main">
+                <section class="articles">
+                    <article>
+
+
+
+   <div id="usuarioos">
+  <center><p>LOGIN</p></center>
+ <center <p>Inicia sesión para Empezar a comprar</p></center>
+   <form action="/iniciar_sesion" method="post">
+<div class="container">
+    <div class="form-row">
+         <div class="col-xs-12 ">
+          <div class="mb-3">
+                <center><label for="correo" class="form-label">Escribe aqui tu correo electronico</label></center>
+                <center><input type="email" class="form-control" name="correo" id="correo" placeholder="nombre@ejemplo.com"></center>
+          </div>
+          <div class="mb-3">
+                <center><label for="contrasena" class="form-label">Escribe tu contraseña</label></center>
+                <center><input type="password" class="form-control" name="contrasena" id="contrasena"></input></center>
+          </div>
+          </div>
+    </div>
+</div>
+       <br>
+    <center><button type="submit" class="btn btn-primary">Enviar</button></center>
+</form></div>
+ </article>
+{% endblock %}
+
