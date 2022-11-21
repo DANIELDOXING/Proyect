@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(/static/images/fondob.jpg);
+    
+}
+
+header, .main, footer{
+    width: 90%;
+    margin: 1% auto;
+   
+}
+
+header nav {
+    background: #000000;
+    overflow: hidden;
+    border: solid 5px white;
+    border-radius: 30px ;
+}
+
+header nav ul {
+    list-style: none;
+}
+header nav ul li{
+    font-family: 'Arial';
+    float: left;
+}
+
+header nav ul li {
+    -webkit-transition:all .9s ease;
+    -moz-transition:all .9s ease;
+    -o-transition:all .9s ease;
+    -ms-transition:all .9s ease;
+    }
+header nav ul li :hover {
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.25);
+    }
+
+
+header nav ul li a{
+    padding: 10px 20px;
+    display:block;
+    color:#ffffff;
+    text-decoration: none;
+    
+}
+header nav ul li a:hover{
+    background: #DCD3CC ;
+}
+.main .articles{
+    width:68.5%;
+    margin-right: 1.5%;
+    float:center;
+}
+.main .articles article{
+    padding: 20px;
+    background: #413E3EF8 ;
+    margin-bottom: 20px;
+}
+
+.main article{
+    background: #B1B2AB ;
+}

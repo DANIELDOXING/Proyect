@@ -1,0 +1,41 @@
+
+ 
+{% extends "layout.html" %}
+ 
+{% block content %}
+ <section class="main">
+                <section class="articles">
+                    <article>
+        <div id="usuarioos">
+
+        <center><p>REGISTATE :D</p></center>
+      
+ 
+         <form action="/usuarios" method="POST">
+   <div class="container">
+          <div class="form-row">
+               <div class="col-xs-12 ">
+                <div class="mb-3">
+                     <center> <label for="correo" class="form-label">Escribe tu correo electronico</label></center>
+                     <center> <input type="email" class="form-input" name="correo" id="correo" placeholder="nombre@ejemplo.com"></center>
+                </div>
+                <div class="mb-3">
+                  <center> <label for="nombre" class="form-label">Ingresa tu nombre</label></center>
+                   <center><input type="nombre" class="form-input" name="nombre" id="nombre"></input></center>
+             </div>
+             
+                <div class="mb-3">
+                     <center> <label for="contrasena" class="form-label">Crea una contraseña</label></center>
+                      <center><input type="password" class="form-input" name="contrasena" id="contrasena"></input></center>
+                </div>
+                
+                </div>
+          </div>
+    </div>
+             <br>
+          <center><button type="submit" class="btn btn-primary">Enviar</button></center>
+
+</form></div>
+                        
+  </article>
+{% endblock %}
